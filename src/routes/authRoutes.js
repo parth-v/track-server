@@ -38,7 +38,6 @@ router.post('/signin', async (req, res) => {
 	} catch (err) {
 		return res.status(422).send({ error: 'Invalid email or password' });
 	}
-
 });
 
 module.exports = router;
